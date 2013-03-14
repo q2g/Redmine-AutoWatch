@@ -1,0 +1,5 @@
+# Russian strings go here for Rails i18n
+ru:
+  autowatch_text_general_settings: "Настройки"
+  autowatch_text_general_settings_description: "Настройте роль, которая будет получать уведомления о всех новых задачах в проекте"
+  autowatch_role_id_name: "Роль"
