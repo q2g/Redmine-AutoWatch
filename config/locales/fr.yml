@@ -3,3 +3,4 @@ fr:
   autowatch_text_general_settings: "Paramètres"
   autowatch_text_general_settings_description: "Configurer un rôle pour devenir observateur sur toutes les nouvelles demandes d'un projet"
   autowatch_role_id_name: "Rôle"
+  autowatch_no_set: "Non défini"
