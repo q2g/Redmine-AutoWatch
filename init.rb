@@ -27,12 +27,12 @@ Redmine::Plugin.register :autowatch do
   name 'AutoWatch plugin'
   author 'University of Trier - ZIMK - Andreas Litt, Matthias Lohr'
   description 'Configure users to become a watcher for all new tickets'
-  version '0.1.0'
+  version '0.2.0'
   url 'https://github.com/ZIMK/Redmine-AutoWatch'
   author_url 'http://www.uni-trier.de/'
 
-  settings(:partial => 'settings/autowatch_settings',
-           :default => {
-               'role_id' => '3'
+  settings(partial: 'settings/autowatch_settings',
+           default: {
+             role_id: 0
            })
 end
