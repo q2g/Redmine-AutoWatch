@@ -21,7 +21,7 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-class Hooks < Redmine::Hook::ViewListener
+class AutowatchHooks < Redmine::Hook::ViewListener
   def controller_issues_new_before_save(context={})
     autowatch_role_id = Setting.plugin_autowatch['role_id'].to_i
     return if autowatch_role_id == 0
