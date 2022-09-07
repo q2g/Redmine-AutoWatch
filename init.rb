@@ -21,7 +21,8 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-require_dependency 'autowatch_hooks'
+require 'redmine'
+require_relative "lib/autowatch_hooks"
 
 Redmine::Plugin.register :autowatch do
   name 'AutoWatch plugin'
